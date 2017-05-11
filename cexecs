@@ -1,0 +1,6 @@
+cmd=$1
+for i in `cat hostnew`;
+do 
+echo $i;
+ssh $i $cmd;
+done 
